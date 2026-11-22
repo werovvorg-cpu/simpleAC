@@ -1,0 +1,10 @@
+name: SimpleAC
+version: 0.1.0
+main: me.server.anticheat.AntiCheatPlugin
+api-version: "1.21"
+depend: [packetevents]
+permissions:
+  ac.alerts:
+    default: op
+  ac.bypass:
+    default: false
